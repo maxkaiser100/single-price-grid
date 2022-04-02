@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+}
+p {
+    margin: 0rem 0rem;
+    padding: 0rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.totalContainer {
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px rgba(199, 199, 199, 0.712);;
+    overflow: hidden;
+    margin-top: 7rem;
+} 
+
+.upperArea {
+    width: 20rem;
+    background-color: #FFF;
+    padding: 2rem;
+}
+
+.lowerArea {
+    width: 20rem;
+    
+    
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:hsl(179, 62%, 43%);
+    margin-bottom: 1.2rem;
+}
+
+.title2 {
+    font-weight: 700;
+    color:hsl(71, 73%, 54%);
+    margin-bottom: 1rem;
+}
+
+.infoCopy {
+    color: hsl(218, 22%, 67%);
+    font-size: .8rem;
+    line-height: 1.75;
+}
+
+.leftBox {
+    background-color: hsl(179, 62%, 43%);
+    padding: 2rem;
+}
+
+.boxTitle {
+    color: #FFF;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.bigPrice {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.priceInfo {
+    padding: 0 1rem;
+    color: hsl(204, 43%, 93%);
+   
+}
+
+.signUpButton {
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 8px 8px 8px #8585857e;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.05rem;
+    cursor: pointer;
+    transition: .3s
+}
+
+.signUpButton:hover {
+    background-color: hsla(71, 73%, 54%, 0.774);
+    transition: .3s;
+    color: gray;
+}
+
+.rightBox {
+    padding: 2rem;
+    background-color:hsl(179, 46%, 51%);
+}
+
+.infoCopyBottom {
+    color: rgba(255, 255, 255, 0.733);
+}
+
+@media only screen and (min-width:480px) {
+    .lowerArea {
+        display: flex;
+    }
+
+    .upperArea {
+        width: 40rem;
+    }
+
+   .lowerArea {
+       width: 100%;
+   }
+
+   .leftBox {
+       width: 100%;
+   }
+
+   .rightBox {
+       width: 100%;
+   }
+}
